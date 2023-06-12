@@ -38,7 +38,7 @@ public class CalendarioMB {
     }
 
     public CalendarioMB() {
-        this.usuario = new UsuarioPO(null, null, null, null);
+        this.usuario = new UsuarioPO();
         mesEscolhido = new Date();
         diaSelecionado = new Dia();
     }

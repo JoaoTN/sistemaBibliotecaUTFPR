@@ -81,6 +81,13 @@ public class UsuarioPO implements Serializable {
         this.email = email;
     }
 
+    public UsuarioPO(){
+	this.ra = null;
+        this.nome = null;
+        this.senha = null;
+        this.email = null;
+    }
+
     public String getRa() {
         return ra;
     }
